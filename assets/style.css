@@ -1,0 +1,237 @@
+:root
+{--border-color: rgb(227, 232, 221);
+    --bs1: rgb(243, 242, 237);
+    --bs2: rgb(227, 232, 221);
+
+}
+
+.backgroundimg {
+    background: url(https://muku-store.com/user_data/img/contents/basic_knowledge/about_wood06.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html {
+  background-color: rgb(27, 91, 101);
+}
+
+* {
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    display: flexbox;
+}
+
+body {
+    display: flex-box;
+}
+
+h1 {
+    background-color: var(--section-bg-color);
+    font-size: 50px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 5px var(--bs1), 0 0 5px var(--bs2); 
+}
+
+h2 {
+    background-color: var(--section-bg-color);
+    font-size: 40px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 5px var(--bs1), 0 0 5px var(--bs2); 
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+
+.header-details{
+display:flex;
+justify-content: space-around;
+font-size: 20px;
+font-weight: 400;
+}
+
+.nav-bar{
+    display: flex;
+flex-direction: column;
+}
+.nav-links{
+float: right;
+display: flex;
+flex-direction: column;
+padding: 5%;
+margin: 5%;
+width: 200%;
+border-radius: 8px;
+transition: all 0.5s ease-in-out;
+box-shadow: inset 0px 0px 3px var(--bs1), 0 0 5px var(--bs2);  
+background-color: var(--section-bg-color);
+}
+
+
+
+.nav-links:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 12px var(--bs1), 0 0 16px var(--bs2); 
+}
+
+.quote {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 400;
+    color:var(--bs2);
+    line-height: 2;
+    
+    
+}
+/*above set up as wanted.*/
+
+.aboutme-p {
+    color: var(--bs2);
+    float: right;
+    width: 50%;
+    margin: 0% 10% 0% 0%;
+    font-size: 20px;
+    color: var(--bs2);
+    font-weight: 400;
+}
+.aboutme{
+display: inline;
+}
+
+.self-img {
+    width: 27%;
+    height: 5%;
+    margin: 0% 0% 0% 10%;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 3px var(--bs1), 0 0 5px var(--bs2);  
+    background-color: var(--section-bg-color);
+}
+/*-------------------------------------*/
+
+.work-h3 {
+    padding: 5px;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 5px var(--bs1), 0 0 5px var(--bs2);  
+}
+.ppp {
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px var(--bs1), 0 0 12px var(--bs2);
+    padding: 2%;
+    margin: 1%;
+    background-color: var(--section-bg-color);
+}
+
+.ppp:hover {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 20px var(--bs1), 0 0 30px var(--bs2);  
+}
+
+.emphasis {
+    font-style: italic;
+}    
+
+.work-position {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    justify-content: center;
+}
+
+.first-app-size {
+    width: 100%;
+    margin: 0% 10%;
+    margin-bottom: 1%;
+}
+
+.app-size1 {
+    width: 30%;
+    margin: 2% 5% 2% 10%;
+}
+ .app-size2 {
+    width:30%;
+    margin: 2% 10% 2% 5%;
+ }
+
+
+
+
+/*setup as wanted for now*/
+
+.contactme {
+display: flex;
+justify-content: space-evenly;
+list-style-type: none;
+border-radius: 10px;
+padding: 5%;
+margin: 10px;
+background-color: var(--section-bg-color);
+transition: all 0.5s ease-in-out;
+box-shadow: inset 0px 0px 3px var(--bs1), 0 0 5px var(--bs2);
+margin: 0% 10%;
+}
+
+.contactme:hover {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 20px var(--bs1), 0 0 30px var(--bs2);  
+}
+
+
+
+.contactme-li {
+border-bottom: 5px solid var(--border-color);
+font-size: 20px;
+font-weight: 400;
+color: black;
+}
+ 
+.text-decoration-a {
+    text-decoration: none;
+    color:black;
+ }
+
+ .resume {
+    display: flex;
+    justify-content:center;
+ }
+
+ .resume:hover {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 20px var(--bs1), 0 0 30px var(--bs2); 
+ }
+
+ footer {
+       display: flex;
+       justify-content: center;
+       color: var(--bs2);
+       font-size: 20px;
+       font-weight: 400;
+ }
